@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+a{
+    color: rgb(41, 255, 41);
+}
+nav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(102, 102, 102);
+}
+
+  .links{
+  padding: 0px;
+  border: 2px solid black; 
+  border-radius: 20px;
+  background-color: rgb(70, 69, 69);
+ 
+  
+  }
+  #videos{
+      display: flex;
+      justify-content: space-around;
+      height: 80vh;
+      background-color: rgb(64, 62, 62);
+  }
+ .icon{
+        background: url(sprite3.png) no-repeat;
+        width: 66px;
+        height: 66px;
+        display: inline-block;
+    }
+    footer{
+        text-align: center;
+    }
+    
+    #twt{background-position: -587px -72px;}
+    #fb{background-position: -439px -146px;}
+    #yt{background-position: -439px -221px;}
+    #gmail{background-position: -365px -221px;}
+ 
